@@ -1,8 +1,12 @@
-import Header from './components/Header/Header'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Container } from "@material-ui/core";
+import Header from './components/Header/Header';
+import Trending from './Pages/Trending/Trending';
+import Movies from './Pages/Movies/Movies';
+import Series from './Pages/Series/Series';
+import Search from './Pages/Search/Search';
 import SimpleBottomNavigation from './components/MainNav/MainNav';
-
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
