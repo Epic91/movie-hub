@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState} from 'react';
+import SingleContent from "../../components/SingleContent/SingleContent";
 
 const Trending = () => {
 
@@ -17,6 +18,20 @@ const Trending = () => {
     return (
         <div>
             <span className="pageTitle">Trending </span>
+            <div className="trending">
+                {content && content.map((c) => (
+                        <SingleContent 
+                            key={c.id} 
+                            id={c.id} 
+                            type={c.media_type}
+                            title={c.title || c.name}
+                            overview={c.overview} 
+                            release={c.release_date || c.first_air_date}
+                            poster={c.poster_path}
+                            vote={c.vote_average}
+                            />
+                    ))}
+            </div>
             
         </div>
     )
