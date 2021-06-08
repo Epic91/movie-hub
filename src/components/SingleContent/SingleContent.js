@@ -1,6 +1,7 @@
-import React from 'react'
-import { img_300, unavailable } from '../../config/config'
-import './SingleContent.css'
+import React from 'react';
+import { img_300, unavailable } from '../../config/config';
+import { Badge } from '@material-ui/core';
+import './SingleContent.css';
 
 const SingleContent = ({
     id,
@@ -13,6 +14,7 @@ const SingleContent = ({
 }) => {
     return (
         <div className="media">
+            <Badge badgeContent={vote} color={vote > 6 ? 'primary' : 'secondary'}/>
             <img 
                 className="poster"
                 src=  {poster ? `${img_300}/${poster}` : {unavailable}} 
