@@ -7,7 +7,6 @@ import TvIcon from '@material-ui/icons/Tv';import WhatshotIcon from '@material-u
 import SearchIcon from '@material-ui/icons/Search';
 import { useHistory } from 'react-router';
 
-
 const useStyles = makeStyles({
   root: {
     width: '100%',
@@ -15,8 +14,7 @@ const useStyles = makeStyles({
     bottom: 0,
     backgroundColor: "#2d313a",
     zIndex: 100
-
-  },
+  }
 });
 
 export default function SimpleBottomNavigation() {

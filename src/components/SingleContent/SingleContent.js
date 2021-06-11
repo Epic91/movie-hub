@@ -1,6 +1,7 @@
 import React from 'react';
-import { img_300, unavailable } from '../../config/config';
 import { Badge } from '@material-ui/core';
+import { img_300, unavailable } from '../../config/config';
+import ContentModal from '../../ContentModal/ContentModal';
 import './SingleContent.css';
 
 const SingleContent = ({
@@ -13,7 +14,7 @@ const SingleContent = ({
     vote
 }) => {
     return (
-        <div className="media">
+        <ContentModal type={type} id={id}>
             <Badge badgeContent={vote} color={vote > 6 ? 'primary' : 'secondary'}/>
             <img 
                 className="poster"
@@ -25,7 +26,7 @@ const SingleContent = ({
                 {type === 'tv' ? 'TV Series' : 'Movie'}
                 <span className='subtitle'>{release}</span>
             </span>
-        </div>
+        </ContentModal>
     )
 }
 
