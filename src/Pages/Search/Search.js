@@ -41,20 +41,14 @@ const Search = () => {
         window.scroll(0, 0);
         fetchSearch();
         // eslint-disable-next-line
-    }, [type, page])
-
-
-
-    // const setSearchText = (e) => {
-    //     console.log('ive been clicked')
-    // }
+    }, [type, page]);
 
     return (
         <div>
             <ThemeProvider theme={darkTheme}>
                 <div className="search">
                     <TextField 
-                        style={{ flex:1 }}
+                        style={{ width: "90%" }}
                         className="searchBox"
                         label="Search"
                         variant="filled"

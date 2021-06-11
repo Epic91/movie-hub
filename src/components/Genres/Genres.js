@@ -46,15 +46,15 @@ const Genres = ({
 
     return (
         <div
-            style={{ padding: "6px 0" }}>
+            style={{ padding: "8px 0" }}>
                 {selectedGenres.map((genre) => (
                 <Chip 
                     key={genre.id}
                     label={genre.name}
                     style={{margin: 2}}   
                     clickable 
-                    size='small'
-                    color="primary"
+                    size='medium'
+                    color="secondary"
                     onDelete={() => handleRemove(genre)}
                 />
                 ))}
@@ -64,7 +64,7 @@ const Genres = ({
                     label={genre.name}
                     style={{margin: 2}}   
                     clickable 
-                    size='small'
+                    size='medium'
                     onClick={() => handleAdd(genre)}
                 />
             ))}

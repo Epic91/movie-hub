@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     width: "90%",
     height: "80%",
-    backgroundColor: "#39445a",
+    backgroundColor: "#4d4d4d",
     border: "1px solid #282c34",
     borderRadius: 10,
     color: "white",
@@ -50,16 +50,13 @@ export default function TransitionsModal({ children, type, id }) {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/${type}/${id}?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`
     );
-
     setContent(data);
-    // console.log(data);
   };
 
   const fetchVideo = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/${type}/${id}/videos?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`
     );
-
     setVideo(data.results[0]?.key);
   };
 
