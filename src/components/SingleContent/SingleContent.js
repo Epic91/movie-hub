@@ -8,7 +8,6 @@ const SingleContent = ({
     id,
     type,
     title,
-    overview,
     release,
     poster,
     vote
@@ -18,7 +17,7 @@ const SingleContent = ({
             <Badge badgeContent={vote} color={vote > 6 ? 'primary' : 'secondary'}/>
             <img 
                 className="poster"
-                src=  {poster ? `${img_300}/${poster}` : {unavailable}} 
+                src=  {poster ? `${img_300}${poster}` : {unavailable}} 
                 alt={title}
                 />
             <b className="title">{title}</b>
