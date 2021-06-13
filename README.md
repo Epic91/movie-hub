@@ -10,6 +10,12 @@ Built With:
     * CSS
     * Material-UI React
 
+Movie-Hub Screen Shots:
+=======================
+
+![Image](Movie-Hub-Home.png "icon")
+
+
 
 <!-- What was your motivation?
 Why did you build this project?
