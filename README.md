@@ -4,6 +4,7 @@ An application used to view Trending Movies & TV Series as well as filter data b
 
 
 Built With:
+
     * React
     * JavaScript
     * CSS
