@@ -15,6 +15,7 @@ Movie-Hub Screen Shots:
 
 ![Alt text](/public/Movie-Hub-Home.png?raw=true "Optional Title")
 
+![Alt text](/public/Movie-Hub-Details.png?raw=true "Optional Title")
 
 
 <!-- What was your motivation?
