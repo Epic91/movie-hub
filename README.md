@@ -1,7 +1,14 @@
-Movie-Hub
-=========
+Movie-Hub: 
+==========
+An application used to view Trending Movies & TV Series as well as filter data based on genres.
 
 
+Built With:
+-----------
+    * React
+    * JavaScript
+    * CSS
+    * Material-UI React
 
 
 <!-- What was your motivation?
