@@ -13,7 +13,7 @@ Built With:
 Movie-Hub Screen Shots:
 =======================
 
-![Image](Movie-Hub-Home.png "icon")
+![Alt text](/public/Movie-Hub-Home.png?raw=true "Optional Title")
 
 
 
