@@ -20,13 +20,21 @@ Installation & Setup instructions:
 To clone down this repository. You will need node and npm installed globally on your machine.
 
 Installation:
+
 `npm install`
 
 To Start Server:
+
 `npm start`
 
 To Visit App:
+
 `localhost:3000`
+
+Reflection:
+===========
+
+I'm a fairly new Developer and I needed more practice working with API's and how to display the data. In my coding bootcamp we mainly focused on class components, in this project I focused solely on functional components and using React hooks in order to use state. I was challenged plenty with figuring out 
 
 
 <!-- What was your motivation?

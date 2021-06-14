@@ -2,10 +2,6 @@ import { Chip } from "@material-ui/core";
 import axios from "axios"
 import { useEffect } from 'react';
 
-//fetch the genres
-//add a genre
-//delete a genre
-
 const Genres = ({
     selectedGenres,
     setSelectedGenres,
@@ -42,7 +38,6 @@ const Genres = ({
             setGenres({});
         }; // eslint-disable-next-line
     }, [])
-
 
     return (
         <div
